@@ -27,5 +27,20 @@
 
 6.运行例子：homework.py 这个是千问agent，调用本地的 lm_studio 上的大语言模型，并安装了baidu_search的mcp工具可以简单的跑一下看看效果
 
+7.之后你就可以只运行 baidu_news_mcp.py
+然后把
+{
+        "mcpServers": {
+            "baidu-news": {
+                "command": "python",
+                "args": [r"C:\Users\nayun\Desktop\11-MCP与A2A的应用\baidu_news_mcp.py"],
+                "port": 6278
+            }
+            
+
+        }
+    }
+
+    加入到你自己的mcp工具中就可以让agent自动调用了
 
 
