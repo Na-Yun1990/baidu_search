@@ -5,7 +5,9 @@
 
 1.下载并解压本项目
 
-2.创建python虚拟环境 python -m venv .venv
+2.创建并运行python虚拟环境
+  python -m venv .venv
+  .\.venv\Scripts\activate
 
 3.打开 homework.py 
 
