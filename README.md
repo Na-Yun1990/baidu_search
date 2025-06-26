@@ -6,12 +6,15 @@
 1.下载并解压本项目
 
 2.创建并运行python虚拟环境
+
   python -m venv .venv
-  .\.venv\Scripts\activate
+  
+  .venv\Scripts\activate
 
 3.打开 homework.py 
 
   找到这行代码：
+  
             "baidu-news": {
                 "command": "python",
                 "args": [r"C:\Users\nayun\Desktop\11-MCP与A2A的应用\baidu_news_mcp.py"],
@@ -19,6 +22,7 @@
             }
 
   修改这个代码为你的实际文件路径：
+  
            "args": [r"C:\Users\nayun\Desktop\11-MCP与A2A的应用\baidu_news_mcp.py"]
 
 4.安装 requirements.txt
@@ -29,6 +33,7 @@
 
 7.之后你就可以只运行 baidu_news_mcp.py
 然后把
+
 {
         "mcpServers": {
             "baidu-news": {
@@ -36,11 +41,9 @@
                 "args": [r"C:\Users\nayun\Desktop\11-MCP与A2A的应用\baidu_news_mcp.py"],
                 "port": 6278
             }
-            
-
         }
     }
 
-    加入到你自己的mcp工具中就可以让agent自动调用了
+ 加入到你自己的mcp工具中就可以让agent自动调用了
 
 
